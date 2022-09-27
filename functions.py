@@ -29,21 +29,22 @@ def add_summary_to_book(summary, book):
     summary_book = []
     for summary in book:
         summary_book.append(book) # to add a summary of the books in each element in the list 
-    return summary_book
-
-
+        return summary_book
 print(add_summary_to_book("this is a good book about", books[0]))
 
 
 # CHALLENGE 1
-# get_book_property(property, book)
-# receives a book dictionary
+# get_book_property(property, book) (function name with 2 arguments)
+# receives a book dictionary 
 # recieves a property (string)
 # return the book property
 
-
-def get_book_property(property, book):
+def get_book_property(property, book): 
     ...
+    #for property in book:
+   
+    
+
 
 
 print(get_book_property("color", books[0]))
